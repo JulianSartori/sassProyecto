@@ -2,3 +2,460 @@
 @import '../utilidades/variables';
 @import '../utilidades/fuentes';
 @import '../utilidades/general';
+
+// CSS Segunda entrega proyceto//
+// A ordenar
+
+/* NAVBAR */
+.nav__mobile {
+    display: none;
+}
+
+/* HEADER */
+.div__header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 129, 235, 0.438);
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../resources/background__header.jpg');
+}
+
+.div__header h1 {
+    color: white;
+}
+
+.div__header img {
+    max-width: 100px;
+}
+
+.div__header ul {
+    display: flex;
+    list-style-type: none;
+    /* align-items: center; */
+}
+
+.div__header a {
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 6px;
+    text-decoration: none;
+    /* font-weight: bolder; */
+    color: rgb(0, 0, 0);
+    border: solid 1px black;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.div__header li {
+    margin: 5px;
+}
+
+.logo__index {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.color__form {
+    background-color: white;
+}
+
+.div__header li:hover {
+    transform: scale(1.1);
+}
+
+.div__header a:hover {
+    background-color: rgb(250, 211, 152);
+}
+
+
+/* MAIN */
+.container-main__index {
+    flex-wrap: wrap;
+    display: grid;
+    background-color: rgba(250, 235, 215, 0.295);
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-areas:
+        "carrousel__index carrousel__index aside"
+        "card1__index card2__index aside"
+        "card3__index card4__index aside";
+}
+
+.carrousel__index {
+    grid-area: carrousel__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel__index img {
+    max-width: 300px;
+}
+
+.carousel-control-prev {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.titulo__index {
+    color: brown;
+    margin: 10px 10px 0px 0px;
+    background-color: rgba(255, 0, 0, 0.041);
+    width: 100%;
+}
+
+/* SECCION 2 INDEX */
+.seccion2__index {
+    background-color: rgba(250, 235, 215, 0.295);
+    flex-wrap: wrap;
+}
+
+.top6__latinoamerica {
+    color: brown;
+    margin: 15px 10px;
+}
+
+.seccion2__index a:hover {
+    transform: scale(1.1);
+}
+.seccion2__mobile{
+    display: none;
+}
+
+/* ASIDE */
+.ingreso__index {
+    background-color: rgba(250, 235, 215, 0.384);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.aside {
+    grid-area: aside;
+    border: 1px solid #00000023;
+    flex-wrap: wrap;
+}
+
+.aside ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+}
+
+.aside li {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.aside a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aside h2 {
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3px;
+}
+
+.aside button {
+    max-height: 30px;
+    text-align: center;
+}
+
+.aside p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* CARDS-INDEX */
+.card__flex {
+    display: flex;
+    align-items: center;
+}
+
+.card__flex h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.card__flex p {
+    display: flex;
+    justify-content: center;
+}
+
+.card__flex a {
+    display: flex;
+    justify-content: center;
+}
+
+.card1__index {
+    grid-area: card1__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card-eltunel__index {
+    margin: 30px;
+}
+
+.card2__index {
+    grid-area: card2__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card3__index {
+    grid-area: card3__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card4__index {
+    grid-area: card4__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card2__index img {
+    max-width: 200px;
+}
+
+.card3__index img {
+    max-width: 200px;
+}
+
+.card4__index img {
+    max-width: 200px;
+}
+
+.acceso__index {
+    margin: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    grid-area: footer;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer ul {
+    list-style-type: square;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
+
+/* PAGE:GENERO */
+.section__generos__mobile {
+    display: none;
+}
+
+.div__generos img {
+    max-width: 250px;
+}
+
+.div__generos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__generos a:hover {
+    transform: scale(1.2);
+}
+
+/* PAGE CONTACTO */
+.boton__contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;
+}
+.main-contacto{
+    margin: 20px 0px 0px 0px;
+}
+/* PAGE MEMBRESIAS */
+.ul__membresias {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.ul__membresias li {
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.ul__membresias a {
+    text-decoration: none;
+}
+
+.titulo__membresias {
+    text-align: center;
+    color: brown;
+}
+
+.ingreso__membresias {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.ingreso__membresias form {
+    border: 1px solid rgba(0, 0, 0, 0.224);
+    padding: 3px;
+}
+
+/* PAGE E-BOOKS */
+.div__ebooks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div__ebooks a:hover {
+    transform: scale(1.2);
+}
+
+.titulo__ebooks {
+    margin: 20px 10px;
+}
+
+.div__generos__2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.div__generos__2 a:hover {
+    transform: scale(1.2);
+}
+
+/* DISEÑO RESPONSIVE */
+
+@media (max-width:769px) {
+    .aside {
+        display: none;
+    }
+
+    .div__header {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+
+    .container-main__index {
+        flex-wrap: wrap;
+        display: grid;
+        background-color: rgba(250, 235, 215, 0.295);
+        /* height: 100vh; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "carrousel__index carrousel__index"
+            "card1__index card2__index"
+            "card3__index card4__index";
+    }
+
+    .section__generos {
+        display: none;
+    }
+
+    .section__generos__mobile {
+        display: block;
+        margin: 100px 0px 0px 0px;
+    }
+
+    .titulo__ebooks {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .ingreso__membresias {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .main-contacto {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .seccion2__index {
+        display: none;
+    }
+
+    .seccion2__mobile {
+        display: block;
+    }
+}
+
+/* SECCION 2 INDEX - MOBILE */
+.container__seccion2__mobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "seccion2__mobile__card1 seccion2__mobile__card2"
+        "seccion2__mobile__card3 seccion2__mobile__card4";
+}
+
+.seccion2__mobile__card1 {
+    grid-area: seccion2__mobile__card1;
+}
+
+.seccion2__mobile__card2 {
+    grid-area: seccion2__mobile__card2;
+}
+
+.seccion2__mobile__card3 {
+    grid-area: seccion2__mobile__card3;
+}
+
+.seccion2__mobile__card4 {
+    grid-area: seccion2__mobile__card4;
+}
+
+
+/* ESTRATEGIA MOBILE LAST */
+/* max-width --> el @media aplica para todos los dispositivos menores al tamaño ej.500px --> para abajo */
+/* max-width--> si mi dispositivo tiene COMO MUCHO.... */
+/* SI el tamaño es superior, se mantiene el codigo (que escribi en vista de escritorio) */
+
+/* ESTRATEGIA MOBILE FIRST */
+/* /* min-width --> el @media aplica para todos los dispositivos mayores al tamaño ej.500px --> para arriba */
+/* min-width-_> si mi dispositivo tiene COMO MINIMO... */
+/* SI el tamaño es menor, se mantiene el codigo (que escribir en vista mobile) */
