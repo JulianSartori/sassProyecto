@@ -3,10 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Caprasimo&display=swap");
-/* NAVBAR */
-.nav__mobile {
-  display: none; }
-
 /* HEADER */
 .div__header {
   display: flex;
@@ -223,6 +219,10 @@
 
 .footer p {
   color: white; }
+
+/* NAVBAR */
+.nav__mobile {
+  display: none; }
 
 /* PAGE:GENERO */
 .section__generos__mobile {
