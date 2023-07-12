@@ -88,9 +88,6 @@
   background-color: rgba(255, 0, 0, 0.041);
   width: 100%; }
 
-.mainIndex {
-  background-image: url("../resources/pruebaBackMain.jpeg") !important; }
-
 /* SECCION 2 INDEX */
 .seccion2__index {
   background-color: rgba(250, 235, 215, 0.295);
