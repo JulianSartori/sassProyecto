@@ -5,7 +5,7 @@
 
 @import '../estilosIndex/header';
 @import '../estilosIndex/main-index';
-@import '../estilosIndex/seccionDos-index';
+@import '../estilosIndex/seccion2-index';
 @import '../estilosIndex/aside-index';
 @import '../estilosIndex/cards-index';
 @import '../estilosIndex/ingreso-index';
@@ -25,12 +25,3 @@
 
 
 
-/* ESTRATEGIA MOBILE LAST */
-/* max-width --> el @media aplica para todos los dispositivos menores al tamaño ej.500px --> para abajo */
-/* max-width--> si mi dispositivo tiene COMO MUCHO.... */
-/* SI el tamaño es superior, se mantiene el codigo (que escribi en vista de escritorio) */
-
-/* ESTRATEGIA MOBILE FIRST */
-/* /* min-width --> el @media aplica para todos los dispositivos mayores al tamaño ej.500px --> para arriba */
-/* min-width-_> si mi dispositivo tiene COMO MINIMO... */
-/* SI el tamaño es menor, se mantiene el codigo (que escribir en vista mobile) */
