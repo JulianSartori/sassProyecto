@@ -1,6 +1,7 @@
 /* DISEÑO RESPONSIVE */
 
 @media (max-width:769px) {
+    // INDEX //
     .aside {
         display: none;
     }
@@ -24,33 +25,36 @@
             "card1__index card2__index"
             "card3__index card4__index";
     }
-
-    .section__generos {
-        display: none;
-    }
-
-    .section__generos__mobile {
-        display: block;
-        margin: 100px 0px 0px 0px;
-    }
-
-    .titulo__ebooks {
-        margin: 100px 0px 0px 0px;
-    }
-
-    .ingreso__membresias {
-        margin: 100px 0px 0px 0px;
-    }
-
-    .main-contacto {
-        margin: 100px 0px 0px 0px;
-    }
-
     .seccion2Index {
         display: none;
     }
 
     .seccion2Mobile {
         display: block;
+    }
+
+    // PAGE GENEROS //
+    .section1Generos {
+        display: none;
+    }
+
+    .sectionGenerosMobile {
+        display: block;
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE E-BOOKS //
+    .tituloEbooks {
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE MEMBRESIAS //
+    .ingresoMembresias {
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE CONTACTO
+    .mainContacto {
+        margin: 100px 0px 0px 0px;
     }
 }

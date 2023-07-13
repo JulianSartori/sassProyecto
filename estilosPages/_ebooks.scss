@@ -1,23 +1,14 @@
 /* PAGE E-BOOKS */
-.div__ebooks {
+.contEbooks {
     display: flex;
     justify-content: space-around;
 }
 
-.div__ebooks a:hover {
+.contEbooks a:hover {
     transform: scale(1.2);
 }
 
-.titulo__ebooks {
+.tituloEbooks {
     margin: 20px 10px;
 }
 
-.div__generos__2 {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-.div__generos__2 a:hover {
-    transform: scale(1.2);
-}
