@@ -1,0 +1,17 @@
+/* PAGE:GENERO */
+.section__generos__mobile {
+    display: none;
+}
+
+.div__generos img {
+    max-width: 250px;
+}
+
+.div__generos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__generos a:hover {
+    transform: scale(1.2);
+}
