@@ -1,5 +1,5 @@
 /* HEADER */
-.div__header {
+.contHeader {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 129, 235, 0.438);
@@ -8,21 +8,21 @@
     background-image: url('../resources/background__header.jpg');
 }
 
-.div__header h1 {
+.contHeader h1 {
     color: white;
 }
 
-.div__header img {
+.contHeader img {
     max-width: 100px;
 }
 
-.div__header ul {
+.contHeader ul {
     display: flex;
     list-style-type: none;
     /* align-items: center; */
 }
 
-.div__header a {
+.contHeader a {
     background-color: rgb(255, 255, 255);
     font-size: 22px;
     padding: 6px;
@@ -34,11 +34,11 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.div__header li {
+.contHeader li {
     margin: 5px;
 }
 
-.logo__index {
+.logoIndex {
     background-color: rgba(255, 255, 255, 0.486);
     border: 1px solid black;
     border-radius: 2%;
@@ -49,10 +49,10 @@
     background-color: white;
 }
 
-.div__header li:hover {
+.contHeader li:hover {
     transform: scale(1.1);
 }
 
-.div__header a:hover {
+.contHeader a:hover {
     background-color: rgb(250, 211, 152);
 }
