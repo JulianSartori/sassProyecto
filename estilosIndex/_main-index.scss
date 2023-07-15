@@ -2,8 +2,8 @@
 .contMainIndex {
     flex-wrap: wrap;
     display: grid;
-    background-color: rgba(250, 235, 215, 0.295);
-    /* height: 100vh; */
+    // background-color: rgba(250, 235, 215, 0.295);
+    
     grid-template-columns: 1fr 1fr 0.5fr;
     grid-template-areas:
         "carrousel__index carrousel__index aside"
@@ -37,12 +37,16 @@
 .carousel-caption p {
     background-color: rgba(0, 0, 0, 0.123);
 }
-
-.titleIndex {
-    color: brown;
-    margin: 10px 10px 0px 0px;
-    background-color: rgba(255, 0, 0, 0.041);
-    width: 100%;
+.contCarousel{
+    margin: 25px 0px;
 }
-
+// Mas vendidos del mes //
+.pruebaGradiente{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    h3{
+    padding: 4px 0px;
+    margin: 0px 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+}
 

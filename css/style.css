@@ -3,7 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* HEADER */
+* {
+  margin: 0;
+  padding: 0; }
+
 .contHeader {
   display: flex;
   justify-content: center;
@@ -13,7 +19,10 @@
   background-image: url("../resources/background__header.jpg"); }
   .contHeader .tituloHeader {
     color: white;
-    padding: 30px; }
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.24);
+    text-shadow: 2px 2px 4px black; }
   .contHeader img {
     max-width: 100px; }
   .contHeader ul {
@@ -25,7 +34,6 @@
     font-size: 22px;
     padding: 6px;
     text-decoration: none;
-    /* font-weight: bolder; */
     color: black;
     border: solid 1px black;
     border-radius: 5px;
@@ -40,11 +48,6 @@
   .contHeader .color__form {
     background-color: white; }
 
-.contHeader
-.contHeader
-.contHeader
-.contHeader
-.contHeader
 .contHeader li:hover {
   transform: scale(1.1); }
 
@@ -58,8 +61,6 @@
 .contMainIndex {
   flex-wrap: wrap;
   display: grid;
-  background-color: rgba(250, 235, 215, 0.295);
-  /* height: 100vh; */
   grid-template-columns: 1fr 1fr 0.5fr;
   grid-template-areas: "carrousel__index carrousel__index aside" "card1__index card2__index aside" "card3__index card4__index aside"; }
 
@@ -84,11 +85,15 @@
 .carousel-caption p {
   background-color: rgba(0, 0, 0, 0.123); }
 
-.titleIndex {
-  color: brown;
-  margin: 10px 10px 0px 0px;
-  background-color: rgba(255, 0, 0, 0.041);
-  width: 100%; }
+.contCarousel {
+  margin: 25px 0px; }
+
+.pruebaGradiente {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); }
+  .pruebaGradiente h3 {
+    padding: 4px 0px;
+    margin: 0px 20px;
+    font-family: 'Montserrat', sans-serif; }
 
 /* SECCION 2 INDEX */
 .seccion2Index {
@@ -106,49 +111,36 @@
   display: none; }
 
 /* ASIDE */
-.ingresoIndex {
-  background-color: rgba(250, 235, 215, 0.384);
-  display: flex;
-  justify-content: space-around;
-  text-align: center; }
-
 .aside {
   grid-area: aside;
   border: 1px solid #00000023;
   flex-wrap: wrap; }
-
-.aside ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: square; }
-
-.aside li {
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center; }
-
-.aside a {
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  font-family: 'Open Sans', sans-serif; }
-
-.aside h2 {
-  padding: auto;
-  text-align: center;
-  text-decoration: none;
-  color: brown;
-  font-family: 'Open Sans', sans-serif;
-  margin: 3px; }
-
-.aside button {
-  max-height: 30px;
-  text-align: center; }
-
-.aside p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center; }
+  .aside ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square; }
+  .aside li {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .aside a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Open Sans', sans-serif; }
+  .aside h2 {
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3px; }
+  .aside p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; }
+  .aside .btnIngresoIndex {
+    margin: 10px; }
 
 /* CARDS-INDEX */
 .card__flex {
@@ -205,6 +197,10 @@
 
 .ingresoIndex {
   margin: 20px;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.384);
+  display: flex;
+  justify-content: space-around;
   text-align: center; }
 
 /* FOOTER */
