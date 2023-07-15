@@ -88,24 +88,22 @@
 .contCarousel {
   margin: 25px 0px; }
 
-.pruebaGradiente {
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); }
-  .pruebaGradiente h3 {
-    padding: 4px 0px;
-    margin: 0px 20px;
-    font-family: 'Montserrat', sans-serif; }
+.h3Index h3 {
+  padding: 4px 0px;
+  margin: 0px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: brown; }
 
 /* SECCION 2 INDEX */
-.seccion2Index {
-  background-color: rgba(250, 235, 215, 0.295);
-  flex-wrap: wrap; }
-
-.seccion2Index a:hover {
-  transform: scale(1.1); }
-
 .top6Latinoamerica {
   color: brown;
-  margin: 15px 10px; }
+  margin: 15px 10px;
+  font-family: 'Montserrat', sans-serif; }
+
+.seccion2Index {
+  flex-wrap: wrap; }
+  .seccion2Index .seccion2Index a:hover {
+    transform: scale(1.1); }
 
 .seccion2Mobile {
   display: none; }
@@ -195,10 +193,15 @@
 .card4__index img {
   max-width: 200px; }
 
+.cardsSeccion2a {
+  margin: 0vw 5vw; }
+
+.cardsSeccion2b {
+  margin: 0vw 5vw; }
+
 .ingresoIndex {
   margin: 20px;
   text-align: center;
-  background-color: rgba(250, 235, 215, 0.384);
   display: flex;
   justify-content: space-around;
   text-align: center; }
