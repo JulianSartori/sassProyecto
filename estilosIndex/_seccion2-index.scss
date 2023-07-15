@@ -7,11 +7,10 @@
 
 .seccion2Index {
     flex-wrap: wrap;
-    .seccion2Index a:hover {
+    a:hover {
         transform: scale(1.1);
     }
 }
-
 .seccion2Mobile {
     display: none;
 }

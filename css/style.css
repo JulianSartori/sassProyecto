@@ -102,7 +102,7 @@
 
 .seccion2Index {
   flex-wrap: wrap; }
-  .seccion2Index .seccion2Index a:hover {
+  .seccion2Index a:hover {
     transform: scale(1.1); }
 
 .seccion2Mobile {
@@ -194,10 +194,10 @@
   max-width: 200px; }
 
 .cardsSeccion2a {
-  margin: 0vw 5vw; }
+  margin: 0px 50px; }
 
 .cardsSeccion2b {
-  margin: 0vw 5vw; }
+  margin: 0 50px; }
 
 .ingresoIndex {
   margin: 20px;
