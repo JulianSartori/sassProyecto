@@ -2,8 +2,7 @@
 .contMainIndex {
     flex-wrap: wrap;
     display: grid;
-    // background-color: rgba(250, 235, 215, 0.295);
-    // ---- //
+    background-image: linear-gradient(15deg, #13547ab7 0%, #80d0c7 100%);
     grid-template-columns: 1fr 1fr 0.5fr;
     grid-template-areas:
         "carrousel__index carrousel__index aside"
@@ -15,39 +14,26 @@
     grid-area: carrousel__index;
     border: 1px solid #00000023;
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-around;
 
-.carrousel__index img {
-    max-width: 300px;
-}
+    img {
+        max-width: 300px;
+    }
 
-.carousel-control-prev {
-    background-color: rgba(0, 0, 0, 0.075);
-}
+    iframe {
+        margin: $anchoCarousel;
+    }
 
-.carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.075);
-}
-
-.carousel-caption h5 {
-    background-color: rgba(0, 0, 0, 0.11);
-}
-
-.carousel-caption p {
-    background-color: rgba(0, 0, 0, 0.123);
-}
-
-.contCarousel {
-    margin: 25px 0px;
+    .contCarousel {
+        margin: $anchoCarousel;
+    }
 }
 
 // Mas vendidos del mes //
-.h3Index {
-    h3 {
-        padding: 4px 0px;
-        margin: 0px 20px;
-        font-family: 'Montserrat', sans-serif;
-        color: brown;
-    }
+.subTitleIdx {
+    padding: 4px 0px;
+    margin: 0px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: brown;
+    box-shadow: 0px 5px 5px red;
 }
